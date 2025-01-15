@@ -1,0 +1,49 @@
+.app-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    background-color: blanchedalmond;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    button{
+        padding: 10px;
+        background-color: orange;
+        border: 1px solid transparent;
+        border-radius: 3px;
+    }
+    .cash{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        padding: 20px;
+        border: 2px solid black;
+        input{
+            width: 50px;
+            border-radius: 3px;
+            padding: 10px;
+        }
+    }
+    .customer{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        border-radius: 3px;
+        border: 2px solid black;
+        .btn-group{
+            display: flex;
+            gap: 10px;
+
+        }
+        .item-block{
+            padding: 10px;
+            background-color: burlywood;
+            cursor: pointer;
+            margin: 10px 0;
+            &:hover{
+                background-color: rgb(247, 212, 169);
+            }
+        }
+    }
+}
